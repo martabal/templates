@@ -11,6 +11,16 @@
     <Shell>bash</Shell>
     <GitHub>https://github.com/hydazz/docker-amp#application-setup</GitHub>
     <ReadMe>https://github.com/hydazz/docker-amp#readme</ReadMe>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>alpine image with glibc, tiny image but only java servers will work!</TagDescription>
+    </Branch>
+    <Branch>
+        <Tag>ubuntu</Tag>
+        <TagDescription>ubuntu image (limited to java servers at this time)</TagDescription>
+        <ReadMe>https://github.com/hydazz/docker-amp/tree/ubuntu#readme</ReadMe>
+        <GitHub>https://github.com/hydazz/docker-amp/tree/ubuntu#application-setup</GitHub>
+    </Branch>
     <Project>https://cubecoders.com/AMP</Project>
     <Overview>AMP (Application Management Panel)(https://cubecoders.com/AMP) - a simple to use and easy to install control panel and management system for hosting game servers.</Overview>
     <ExtraParams>--mac-address=00:00:00:00:00:00</ExtraParams>
