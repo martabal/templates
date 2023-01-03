@@ -15,7 +15,7 @@
     <Overview>ESPHome(https://esphome.io/) - A system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.</Overview>
     <WebUI>http://[IP]:[PORT:6052]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/esphome.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/default.png</Icon>
+    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/esphome.png</Icon>
     <Date>2023-02-1</Date>
     <Changes>
 ### 2023-02-1
@@ -24,7 +24,7 @@
     </Changes>
     <Config Name="WebUI" Target="6052" Default="6052" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"/>
     <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata Path" Type="Path" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="PUID" Target="PUID" Default="99" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="PGID" Target="PGID" Default="100" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="UMASK" Target="UMASK" Default="022" Description="Container Variable: UMASK" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
