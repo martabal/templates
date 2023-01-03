@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
-<!-- GENERATED FROM https://github.com/linuxserver/docker-mosquitto/blob/main/readme-vars.yml -->
+<!-- GENERATED FROM https://github.com/hydazz/docker-mosquitto/blob/main/readme-vars.yml -->
 <Container version="2">
     <Name>mosquitto</Name>
     <Repository>ghcr.io/hydazz/mosquitto</Repository>
     <Registry>https://github.com/orgs/hydazz/packages/container/package/mosquitto</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/linuxserver/docker-mosquitto/issues/new/choose</Support>
+    <Support>https://github.com/hydazz/docker-mosquitto/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/linuxserver/docker-mosquitto#application-setup</GitHub>
-    <ReadMe>https://github.com/linuxserver/docker-mosquitto#readme</ReadMe>
+    <GitHub>https://github.com/hydazz/docker-mosquitto#application-setup</GitHub>
+    <ReadMe>https://github.com/hydazz/docker-mosquitto#readme</ReadMe>
     <Project>https://mosquitto.org/</Project>
     <Overview>Mosquitto(https://mosquitto.org/) an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.</Overview>
     <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/mosquitto.xml</TemplateURL>
