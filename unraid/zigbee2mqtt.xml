@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
+<!-- GENERATED FROM https://github.com/hydazz/docker-zigbee2mqtt/blob/main/readme-vars.yml -->
+<Container version="2">
+    <Name>zigbee2mqtt</Name>
+    <Repository>ghcr.io/hydazz/zigbee2mqtt</Repository>
+    <Registry>https://github.com/orgs/hydazz/packages/container/package/zigbee2mqtt</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/hydazz/docker-zigbee2mqtt/issues/new/choose</Support>
+    <Shell>bash</Shell>
+    <GitHub>https://github.com/hydazz/docker-zigbee2mqtt</GitHub>
+    <ReadMe>https://github.com/hydazz/docker-zigbee2mqtt#readme</ReadMe>
+    <Project>https://www.zigbee2mqtt.io/</Project>
+    <Overview>Zigbee2MQTT(https://www.zigbee2mqtt.io/) - Allows you to use your Zigbee devices without the vendor&#39;s bridge or gateway.</Overview>
+    <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/zigbee2mqtt.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/zigbee2mqtt.png</Icon>
+    <Date>2023-02-1</Date>
+    <Changes>
+### 2023-02-1
+- Initial Release.
+
+    </Changes>
+    <Config Name="WebUI" Target="9442" Default="9442" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata Path" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+    <Config Name="/dev/ttyUSB0" Default="/dev/ttyUSB0" Description="Path the the Zigbee USB, usually /dev/ttyUSB0 or /dev/ttyACM0" Type="Device" Display="always" Required="true" Mask="false"/>
+</Container>
