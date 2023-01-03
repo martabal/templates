@@ -9,7 +9,7 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/hydazz/docker-zigbee2mqtt/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/hydazz/docker-zigbee2mqtt</GitHub>
+    <GitHub>https://github.com/hydazz/docker-zigbee2mqtt#application-setup</GitHub>
     <ReadMe>https://github.com/hydazz/docker-zigbee2mqtt#readme</ReadMe>
     <Project>https://www.zigbee2mqtt.io/</Project>
     <Overview>Zigbee2MQTT(https://www.zigbee2mqtt.io/) - Allows you to use your Zigbee devices without the vendor&#39;s bridge or gateway.</Overview>
