@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
-<!-- GENERATED FROM https://github.com/hydazz/docker-zigbee2mqtt/blob/main/readme-vars.yml -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-zigbee2mqtt/blob/main/readme-vars.yml -->
 <Container version="2">
     <Name>zigbee2mqtt</Name>
-    <Repository>ghcr.io/hydazz/zigbee2mqtt</Repository>
-    <Registry>https://github.com/orgs/hydazz/packages/container/package/zigbee2mqtt</Registry>
+    <Repository>ghcr.io/imagegenius/zigbee2mqtt</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/zigbee2mqtt</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/hydazz/docker-zigbee2mqtt/issues/new/choose</Support>
+    <Support>https://github.com/imagegenius/docker-zigbee2mqtt/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/hydazz/docker-zigbee2mqtt#application-setup</GitHub>
-    <ReadMe>https://github.com/hydazz/docker-zigbee2mqtt#readme</ReadMe>
+    <GitHub>https://github.com/imagegenius/docker-zigbee2mqtt#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-zigbee2mqtt#readme</ReadMe>
     <Project>https://www.zigbee2mqtt.io/</Project>
     <Overview>Zigbee2MQTT(https://www.zigbee2mqtt.io/) - Allows you to use your Zigbee devices without the vendor&#39;s bridge or gateway.</Overview>
     <WebUI>http://[IP]:[PORT:9442]</WebUI>
-    <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/zigbee2mqtt.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/zigbee2mqtt.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/zigbee2mqtt.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/default.png</Icon>
     <Date>2023-02-1</Date>
     <Changes>
 ### 2023-02-1
