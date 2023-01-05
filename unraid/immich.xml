@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
-<!-- GENERATED FROM https://github.com/hydazz/docker-immich/blob/main/readme-vars.yml -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-immich/blob/main/readme-vars.yml -->
 <Container version="2">
     <Name>immich</Name>
-    <Repository>ghcr.io/hydazz/immich</Repository>
-    <Registry>https://github.com/orgs/hydazz/packages/container/package/immich</Registry>
+    <Repository>ghcr.io/imagegenius/immich</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/immich</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/hydazz/docker-immich/issues/new/choose</Support>
+    <Support>https://github.com/imagegenius/docker-immich/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/hydazz/docker-immich#application-setup</GitHub>
-    <ReadMe>https://github.com/hydazz/docker-immich#readme</ReadMe>
+    <GitHub>https://github.com/imagegenius/docker-immich#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-immich#readme</ReadMe>
     <Project>https://immich.app/</Project>
     <Overview>Immich(https://immich.app/) - High performance self-hosted photo and video backup solution.</Overview>
-    <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/immich.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/immich.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/immich.png</Icon>
     <Date>2023-02-1</Date>
     <Changes>
 ### 2023-02-1
