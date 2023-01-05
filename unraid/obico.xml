@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
-<!-- GENERATED FROM https://github.com/hydazz/docker-obico/blob/main/readme-vars.yml -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-obico/blob/main/readme-vars.yml -->
 <Container version="2">
     <Name>obico</Name>
-    <Repository>ghcr.io/hydazz/obico</Repository>
-    <Registry>https://github.com/orgs/hydazz/packages/container/package/obico</Registry>
+    <Repository>ghcr.io/imagegenius/obico</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/obico</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/hydazz/docker-obico/issues/new/choose</Support>
+    <Support>https://github.com/imagegenius/docker-obico/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/hydazz/docker-obico#application-setup</GitHub>
-    <ReadMe>https://github.com/hydazz/docker-obico#readme</ReadMe>
+    <GitHub>https://github.com/imagegenius/docker-obico#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-obico#readme</ReadMe>
     <Project>https://www.obico.io/</Project>
     <Overview>Obico(https://www.obico.io/) - Community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world.</Overview>
     <WebUI>http://[IP]:[PORT:3334]</WebUI>
-    <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/obico.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/default.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/obico.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/default.png</Icon>
     <Date>2023-05-1</Date>
     <Changes>
 ### 2023-05-1
