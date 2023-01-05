@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
-<!-- GENERATED FROM https://github.com/hydazz/docker-duplicati/blob/main/readme-vars.yml -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-duplicati/blob/main/readme-vars.yml -->
 <Container version="2">
     <Name>duplicati</Name>
-    <Repository>ghcr.io/hydazz/duplicati</Repository>
-    <Registry>https://github.com/orgs/hydazz/packages/container/package/duplicati</Registry>
+    <Repository>ghcr.io/imagegenius/duplicati</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/duplicati</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/hydazz/docker-duplicati/issues/new/choose</Support>
+    <Support>https://github.com/imagegenius/docker-duplicati/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/hydazz/docker-duplicati#application-setup</GitHub>
-    <ReadMe>https://github.com/hydazz/docker-duplicati#readme</ReadMe>
+    <GitHub>https://github.com/imagegenius/docker-duplicati#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-duplicati#readme</ReadMe>
     <Branch>
         <Tag>latest</Tag>
         <TagDescription>Beta releases of Duplicati</TagDescription>
@@ -18,8 +18,8 @@
     <Project>https://www.duplicati.com/</Project>
     <Overview>Duplicati(https://www.duplicati.com/) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.</Overview>
     <WebUI>http://[IP]:[PORT:8200]</WebUI>
-    <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/duplicati.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/duplicati.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/duplicati.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/default.png</Icon>
     <Date>2023-01-03</Date>
     <Changes>
 ### 2023-01-03
