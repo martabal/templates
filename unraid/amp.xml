@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
-<!-- GENERATED FROM https://github.com/hydazz/docker-amp/blob/main/readme-vars.yml -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-amp/blob/main/readme-vars.yml -->
 <Container version="2">
     <Name>amp</Name>
-    <Repository>ghcr.io/hydazz/amp</Repository>
-    <Registry>https://github.com/orgs/hydazz/packages/container/package/amp</Registry>
+    <Repository>ghcr.io/imagegenius/amp</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/amp</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/hydazz/docker-amp/issues/new/choose</Support>
+    <Support>https://github.com/imagegenius/docker-amp/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/hydazz/docker-amp#application-setup</GitHub>
-    <ReadMe>https://github.com/hydazz/docker-amp#readme</ReadMe>
+    <GitHub>https://github.com/imagegenius/docker-amp#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-amp#readme</ReadMe>
     <Branch>
         <Tag>latest</Tag>
         <TagDescription>alpine image with glibc, tiny image but only java servers will work!</TagDescription>
@@ -18,14 +18,14 @@
     <Branch>
         <Tag>ubuntu</Tag>
         <TagDescription>ubuntu image (limited to java servers at this time)</TagDescription>
-        <ReadMe>https://github.com/hydazz/docker-amp/tree/ubuntu#readme</ReadMe>
-        <GitHub>https://github.com/hydazz/docker-amp/tree/ubuntu#application-setup</GitHub>
+        <ReadMe>https://github.com/imagegenius/docker-amp/tree/ubuntu#readme</ReadMe>
+        <GitHub>https://github.com/imagegenius/docker-amp/tree/ubuntu#application-setup</GitHub>
     </Branch>
     <Project>https://cubecoders.com/AMP</Project>
     <Overview>AMP (Application Management Panel)(https://cubecoders.com/AMP) - a simple to use and easy to install control panel and management system for hosting game servers.</Overview>
     <ExtraParams>--mac-address=00:00:00:00:00:00</ExtraParams>
-    <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/amp.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/amp.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/amp.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/default.png</Icon>
     <Date>2023-02-1</Date>
     <Changes>
 ### 2023-02-1
