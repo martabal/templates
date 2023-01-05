@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
-<!-- GENERATED FROM https://github.com/hydazz/docker-esphome/blob/main/readme-vars.yml -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-esphome/blob/main/readme-vars.yml -->
 <Container version="2">
     <Name>esphome</Name>
-    <Repository>ghcr.io/hydazz/esphome</Repository>
-    <Registry>https://github.com/orgs/hydazz/packages/container/package/esphome</Registry>
+    <Repository>ghcr.io/imagegenius/esphome</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/esphome</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://github.com/hydazz/docker-esphome/issues/new/choose</Support>
+    <Support>https://github.com/imagegenius/docker-esphome/issues/new/choose</Support>
     <Shell>bash</Shell>
-    <GitHub>https://github.com/hydazz/docker-esphome#application-setup</GitHub>
-    <ReadMe>https://github.com/hydazz/docker-esphome#readme</ReadMe>
+    <GitHub>https://github.com/imagegenius/docker-esphome#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-esphome#readme</ReadMe>
     <Project>https://esphome.io/</Project>
     <Overview>ESPHome(https://esphome.io/) - A system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.</Overview>
     <WebUI>http://[IP]:[PORT:6052]</WebUI>
-    <TemplateURL>https://raw.githubusercontent.com/hydazz/templates/main/unraid/esphome.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/hydazz/docker-templates/main/hydaz/img/esphome.png</Icon>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/esphome.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/esphome.png</Icon>
     <Date>2023-02-1</Date>
     <Changes>
 ### 2023-02-1
