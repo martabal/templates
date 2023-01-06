@@ -14,7 +14,7 @@
     <Project>https://www.zigbee2mqtt.io/</Project>
     <Overview>Zigbee2MQTT(https://www.zigbee2mqtt.io/) - Allows you to use your Zigbee devices without the vendor&#39;s bridge or gateway.</Overview>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/zigbee2mqtt.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/default.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/zigbee2mqtt.png</Icon>
     <Date>2023-02-1</Date>
     <Changes>
 ### 2023-02-1
