@@ -13,6 +13,7 @@
     <ReadMe>https://github.com/imagegenius/docker-immich#readme</ReadMe>
     <Project>https://immich.app/</Project>
     <Overview>Immich(https://immich.app/) - High performance self-hosted photo and video backup solution.</Overview>
+    <WebUI>http://[IP]:[PORT:2283]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/immich.png</Icon>
     <Date>2023-02-1</Date>
