@@ -25,7 +25,7 @@
     <Overview>AMP (Application Management Panel)(https://cubecoders.com/AMP) - a simple to use and easy to install control panel and management system for hosting game servers.</Overview>
     <ExtraParams>--mac-address=00:00:00:00:00:00</ExtraParams>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/amp.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/default.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/amp.png</Icon>
     <Date>2023-02-1</Date>
     <Changes>
 ### 2023-02-1
