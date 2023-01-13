@@ -26,5 +26,5 @@
     <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
-    <Config Name="/dev/ttyUSB0" Default="/dev/ttyUSB0" Description="Path the the Zigbee USB, usually /dev/ttyUSB0 or /dev/ttyACM0" Type="Device" Display="always" Required="true" Mask="false"/>
+    <Config Name="Zigbee USB" Default="Zigbee USB" Description="Path the the Zigbee USB, usually /dev/ttyUSB0 or /dev/ttyACM0" Type="Device" Display="always" Required="true" Mask="false"/>
 </Container>
