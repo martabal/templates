@@ -11,6 +11,16 @@
     <Shell>bash</Shell>
     <GitHub>https://github.com/imagegenius/docker-esphome#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-esphome#readme</ReadMe>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Latest version of ESPHome with an Ubuntu Base</TagDescription>
+    </Branch>
+    <Branch>
+        <Tag>ubuntu</Tag>
+        <TagDescription>Latest version of ESPHome with an Alpine Base (ESP32 Compiling does not work)</TagDescription>
+        <ReadMe>https://github.com/imagegenius/docker-esphome/tree/ubuntu#readme</ReadMe>
+        <GitHub>https://github.com/imagegenius/docker-esphome/tree/ubuntu#application-setup</GitHub>
+    </Branch>
     <Project>https://esphome.io/</Project>
     <Overview>ESPHome(https://esphome.io/) - A system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.</Overview>
     <WebUI>http://[IP]:[PORT:6052]</WebUI>
