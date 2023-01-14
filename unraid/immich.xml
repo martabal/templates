@@ -11,6 +11,16 @@
     <Shell>bash</Shell>
     <GitHub>https://github.com/imagegenius/docker-immich#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-immich#readme</ReadMe>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Latest Immich release with an Ubuntu base. Does not include GPU acceleration as tfjs-node-gpu is not included.</TagDescription>
+    </Branch>
+    <Branch>
+        <Tag>gpu</Tag>
+        <TagDescription>Latest Immich release with an Ubuntu base. tfjs-node-gpu is included (much bigger image) - coming soon</TagDescription>
+        <ReadMe>https://github.com/imagegenius/docker-immich/tree/gpu#readme</ReadMe>
+        <GitHub>https://github.com/imagegenius/docker-immich/tree/gpu#application-setup</GitHub>
+    </Branch>
     <Project>https://immich.app/</Project>
     <Overview>Immich(https://immich.app/) - High performance self-hosted photo and video backup solution.</Overview>
     <WebUI>http://[IP]:[PORT:2283]</WebUI>
