@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-maintenance/blob/main/readme-vars.yml -->
+<Container version="2">
+    <Name>maintenance</Name>
+    <Repository>ghcr.io/imagegenius/maintenance</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/maintenance</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/imagegenius/docker-maintenance/issues/new/choose</Support>
+    <Shell>bash</Shell>
+    <GitHub>https://github.com/imagegenius/docker-maintenance#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-maintenance#readme</ReadMe>
+    <Project>https://imagegenius/docker-maintenance/</Project>
+    <Overview>Maintenance(https://imagegenius/docker-maintenance/) - Minimal Nginx Docker image with a soul purpose to be a maintenance page for when your main webserver is down</Overview>
+    <WebUI>http://[IP]:[PORT:80]</WebUI>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/maintenance.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/maintenance.png</Icon>
+    <Date>2023-02-1</Date>
+    <Changes>
+### 2023-02-1
+- Initial Release.
+
+    </Changes>
+    <Config Name="WebUI" Target="80" Default="80" Mode="tcp" Description="HTTP Port" Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Port: 443" Target="443" Default="443" Mode="tcp" Description="HTTPS Port" Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Contains configuration files" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="Path: /swag" Target="/swag" Default="" Mode="rw" Description="Location of swag appdata on the host" Type="Path" Display="always" Required="true" Mask="false"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
