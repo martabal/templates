@@ -29,7 +29,7 @@
     <Config Name="DB_USERNAME" Target="DB_USERNAME" Default="postgres" Description="PostgreSQL Username" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="postgres" Description="PostgreSQL Password" Type="Variable" Display="always" Required="true" Mask="true"/>
     <Config Name="DB_DATABASE_NAME" Target="DB_DATABASE_NAME" Default="immich" Description="PostgreSQL Database Name" Type="Variable" Display="always" Required="true" Mask="false"/>
-    <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="somelongrandomstring" Description=" Run `openssl rand -base64 128 | tr -d &#39;\n&#39;`" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="somelongrandomstring" Description="Run openssl rand -base64 128 | tr -d &#39;\n&#39;" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
