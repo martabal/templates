@@ -24,6 +24,7 @@
     </Changes>
     <Config Name="WebUI" Target="8080" Default="2283" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"/>
     <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Contains the logs" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="Path: /photos" Target="/photos" Default="" Mode="rw" Description="Contains all the photos uploaded to Immich" Type="Path" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_HOSTNAME" Target="DB_HOSTNAME" Default="192.168.1.x" Description="PostgreSQL Host" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_USERNAME" Target="DB_USERNAME" Default="postgres" Description="PostgreSQL Username" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="postgres" Description="PostgreSQL Password" Type="Variable" Display="always" Required="true" Mask="true"/>
