@@ -26,8 +26,11 @@
     <WebUI>http://[IP]:[PORT:2283]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/immich.png</Icon>
-    <Date>2023-02-1</Date>
+    <Date>2023-21-1</Date>
     <Changes>
+### 2023-21-1
+- BREAKING: Redis is removed. Update missing param_env_vars and opt_param_env_vars for redis and postgres
+
 ### 2023-02-1
 - Initial Release.
 
@@ -39,7 +42,11 @@
     <Config Name="DB_USERNAME" Target="DB_USERNAME" Default="postgres" Description="PostgreSQL Username" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="postgres" Description="PostgreSQL Password" Type="Variable" Display="always" Required="true" Mask="true"/>
     <Config Name="DB_DATABASE_NAME" Target="DB_DATABASE_NAME" Default="immich" Description="PostgreSQL Database Name" Type="Variable" Display="always" Required="true" Mask="false"/>
-    <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="somelongrandomstring" Description="Run openssl rand -base64 128 | tr -d &#39;\n&#39;" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="REDIS_HOSTNAME" Target="REDIS_HOSTNAME" Default="redis" Description="Redis Hostname" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="somelongrandomstring" Description="Run `openssl rand -base64 128`" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="DB_PORT" Target="DB_PORT" Default="5432" Description="PostgreSQL Port" Type="Variable" Display="always" Required="false" Mask="false"/>
+    <Config Name="REDIS_PORT" Target="REDIS_PORT" Default="6379" Description="Redis Port" Type="Variable" Display="always" Required="false" Mask="false"/>
+    <Config Name="REDIS_PASSWORD" Target="REDIS_PASSWORD" Default="redis" Description="Redis password" Type="Variable" Display="always" Required="false" Mask="true"/>
     <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
