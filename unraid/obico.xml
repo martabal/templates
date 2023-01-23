@@ -9,13 +9,14 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/imagegenius/docker-obico/issues/new/choose</Support>
     <Shell>bash</Shell>
+    <Category>Cloud: Tools:</Category>
     <GitHub>https://github.com/imagegenius/docker-obico#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-obico#readme</ReadMe>
     <Project>https://www.obico.io/</Project>
     <Overview>Obico(https://www.obico.io/) - Community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world.</Overview>
     <WebUI>http://[IP]:[PORT:3334]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/obico.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/obico.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/obico.png</Icon>
     <Date>2023-14-1</Date>
     <Changes>
 ### 2023-14-1
