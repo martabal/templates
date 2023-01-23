@@ -9,6 +9,7 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/imagegenius/docker-esphome/issues/new/choose</Support>
     <Shell>bash</Shell>
+    <Category>HomeAutomation: Tools:</Category>
     <GitHub>https://github.com/imagegenius/docker-esphome#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-esphome#readme</ReadMe>
     <Branch>
@@ -25,7 +26,7 @@
     <Overview>ESPHome(https://esphome.io/) - A system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.</Overview>
     <WebUI>http://[IP]:[PORT:6052]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/esphome.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/esphome.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/esphome.png</Icon>
     <Date>2023-20-1</Date>
     <Changes>
 ### 2023-20-1
