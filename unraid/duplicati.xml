@@ -9,17 +9,18 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/imagegenius/docker-duplicati/issues/new/choose</Support>
     <Shell>bash</Shell>
+    <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
     <GitHub>https://github.com/imagegenius/docker-duplicati#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-duplicati#readme</ReadMe>
     <Branch>
         <Tag>latest</Tag>
-        <TagDescription>Beta releases of Duplicati</TagDescription>
+        <TagDescription>Beta version of Duplicati with an Alpine base.</TagDescription>
     </Branch>
     <Project>https://www.duplicati.com/</Project>
     <Overview>Duplicati(https://www.duplicati.com/) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.</Overview>
     <WebUI>http://[IP]:[PORT:8200]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/duplicati.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/duplicati.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/duplicati.png</Icon>
     <Date>2023-01-03</Date>
     <Changes>
 ### 2023-01-03
