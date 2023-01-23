@@ -9,16 +9,17 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/imagegenius/docker-swag/issues/new/choose</Support>
     <Shell>bash</Shell>
+    <Category>Other:</Category>
     <GitHub>https://github.com/imagegenius/docker-swag#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-swag#readme</ReadMe>
     <Project>https://linuxserver.io</Project>
-    <Overview>SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let&#39;s Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let&#39;s Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.</Overview>
+    <Overview>(Unofficial) SWAG - Modifed version of LSIO&#39;s SWAG with nextcloud dependencies</Overview>
     <ExtraParams>--cap-add=NET_ADMIN</ExtraParams>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/swag.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/default.png</Icon>
-    <Date>2023-08-01</Date>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/default.png</Icon>
+    <Date>2023-23-01</Date>
     <Changes>
-### 2023-08-01
+### 2023-23-01
 - Initial release.
 
     </Changes>
