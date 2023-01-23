@@ -28,15 +28,15 @@
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/immich.png</Icon>
     <Requires>PostgreSQL 14, Redis</Requires>
-    <Date>2023-23-1</Date>
+    <Date>2023-01-23</Date>
     <Changes>
-### 2023-23-1
+### 2023-01-23
 - add noml image to readme and add aarch64 image to readme, make github release stable
 
-### 2023-21-1
+### 2023-01-21
 - BREAKING: Redis is removed. Update missing param_env_vars and opt_param_env_vars for redis and postgres
 
-### 2023-02-1
+### 2023-01-02
 - Initial Release.
 
     </Changes>
