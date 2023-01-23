@@ -27,6 +27,7 @@
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/immich.png</Icon>
+    <Requires>PostgreSQL 14, Redis</Requires>
     <Date>2023-23-1</Date>
     <Changes>
 ### 2023-23-1
@@ -50,7 +51,7 @@
     <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="somelongrandomstring" Description="Run `openssl rand -base64 128`" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_PORT" Target="DB_PORT" Default="5432" Description="PostgreSQL Port" Type="Variable" Display="always" Required="false" Mask="false"/>
     <Config Name="REDIS_PORT" Target="REDIS_PORT" Default="6379" Description="Redis Port" Type="Variable" Display="always" Required="false" Mask="false"/>
-    <Config Name="REDIS_PASSWORD" Target="REDIS_PASSWORD" Default="redis" Description="Redis password" Type="Variable" Display="always" Required="false" Mask="true"/>
+    <Config Name="REDIS_PASSWORD" Target="REDIS_PASSWORD" Default="" Description="Redis password" Type="Variable" Display="always" Required="false" Mask="true"/>
     <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
