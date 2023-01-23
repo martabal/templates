@@ -9,6 +9,7 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/imagegenius/docker-amp/issues/new/choose</Support>
     <Shell>bash</Shell>
+    <Category>Other:</Category>
     <GitHub>https://github.com/imagegenius/docker-amp#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-amp#readme</ReadMe>
     <Branch>
@@ -26,10 +27,10 @@
     <ExtraParams>--mac-address=00:00:00:00:00:00</ExtraParams>
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/amp.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/amp.png</Icon>
-    <Date>2023-02-1</Date>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/amp.png</Icon>
+    <Date>2023-01-02</Date>
     <Changes>
-### 2023-02-1
+### 2023-01-02
 - Initial Release.
 
     </Changes>
