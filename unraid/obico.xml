@@ -17,15 +17,15 @@
     <WebUI>http://[IP]:[PORT:3334]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/obico.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/obico.png</Icon>
-    <Date>2023-14-1</Date>
+    <Date>2023-01-14</Date>
     <Changes>
-### 2023-14-1
+### 2023-01-14
 - Update to s6v3
 
-### 2023-05-1
+### 2023-01-05
 - Initial Working Release.
 
-### 2023-04-1
+### 2023-01-04
 - Initial Release.
 
     </Changes>
