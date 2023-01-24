@@ -28,8 +28,11 @@
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/amp.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/amp.png</Icon>
-    <Date>2023-01-02</Date>
+    <Date>2023-01-24</Date>
     <Changes>
+### 2023-01-24
+- Fix services starting prematurely
+
 ### 2023-01-02
 - Initial Release.
 
