@@ -24,7 +24,7 @@
     </Branch>
     <Project>https://immich.app/</Project>
     <Overview>Immich(https://immich.app/) - High performance self-hosted photo and video backup solution.</Overview>
-    <WebUI>http://[IP]:[PORT:8080]</WebUI>
+    <WebUI>http://[IP]:[PORT:8080]/auth/register</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/immich.png</Icon>
     <Requires>PostgreSQL 14, Redis</Requires>
