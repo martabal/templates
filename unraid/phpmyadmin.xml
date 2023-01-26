@@ -9,13 +9,14 @@
     <Privileged>false</Privileged>
     <Support>https://github.com/imagegenius/docker-phpmyadmin/issues/new/choose</Support>
     <Shell>bash</Shell>
+    <Category>Other:</Category>
     <GitHub>https://github.com/imagegenius/docker-phpmyadmin#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-phpmyadmin#readme</ReadMe>
     <Project>https://github.com/phpmyadmin/phpmyadmin/</Project>
     <Overview>Phpmyadmin(https://github.com/phpmyadmin/phpmyadmin/) is a free software tool written in PHP, intended to handle the administration of MySQL over the Web. phpMyAdmin supports a wide range of operations on MySQL and MariaDB.</Overview>
     <WebUI>http://[IP]:[PORT:80]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/phpmyadmin.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/docker-templates/main/imagegenius/img/phpmyadmin.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/phpmyadmin.png</Icon>
     <Date>2023-01-13</Date>
     <Changes>
 ### 2023-01-13
