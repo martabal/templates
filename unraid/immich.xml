@@ -31,6 +31,9 @@
     <Date>2023-01-26</Date>
     <Changes>
 ### 2023-01-26
+- add unraid migration to readme
+
+### 2023-01-26
 - use find to apply chown to /app, excluding node_modules
 
 ### 2023-01-26
