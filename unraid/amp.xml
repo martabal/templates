@@ -14,11 +14,11 @@
     <ReadMe>https://github.com/imagegenius/docker-amp#readme</ReadMe>
     <Branch>
         <Tag>latest</Tag>
-        <TagDescription>alpine image with glibc, tiny image but only java servers will work!</TagDescription>
+        <TagDescription>Latest AMP Release with an Alpine base, tiny image but only java servers will work</TagDescription>
     </Branch>
     <Branch>
         <Tag>ubuntu</Tag>
-        <TagDescription>ubuntu image (limited to java servers at this time)</TagDescription>
+        <TagDescription>Latest AMP release with an Ubuntu Base, limited to java servers at this time</TagDescription>
         <ReadMe>https://github.com/imagegenius/docker-amp/tree/ubuntu#readme</ReadMe>
         <GitHub>https://github.com/imagegenius/docker-amp/tree/ubuntu#application-setup</GitHub>
     </Branch>
