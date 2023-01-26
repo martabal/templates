@@ -21,7 +21,7 @@
     <ExtraParams>--hostname=Kopia</ExtraParams>
     <WebUI>http://[IP]:[PORT:51515]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/kopia.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/default.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/kopia.png</Icon>
     <Date>2023-26-01</Date>
     <Changes>
 ### 2023-26-01
