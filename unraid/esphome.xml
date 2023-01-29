@@ -14,11 +14,11 @@
     <ReadMe>https://github.com/imagegenius/docker-esphome#readme</ReadMe>
     <Branch>
         <Tag>latest</Tag>
-        <TagDescription>Latest version of ESPHome with an Alpine Base (ESP32 Compiling does not work)</TagDescription>
+        <TagDescription>Latest ESPHome release with an Alpine Base (ESP32 Compiling does not work)</TagDescription>
     </Branch>
     <Branch>
         <Tag>ubuntu</Tag>
-        <TagDescription>Latest version of ESPHome with an Ubuntu Base</TagDescription>
+        <TagDescription>Latest ESPHome release with an Ubuntu base.</TagDescription>
         <ReadMe>https://github.com/imagegenius/docker-esphome/tree/ubuntu#readme</ReadMe>
         <GitHub>https://github.com/imagegenius/docker-esphome/tree/ubuntu#application-setup</GitHub>
     </Branch>
