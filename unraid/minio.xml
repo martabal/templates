@@ -20,7 +20,7 @@
     <Overview>Minio(https://min.io/) is a High Performance Object Storage released under GNU Affero General Public License v3.0. It is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads.</Overview>
     <WebUI>http://[IP]:[PORT:9001]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/minio.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/default.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/minio.png</Icon>
     <Date>2023-29-01</Date>
     <Changes>
 ### 2023-29-01
