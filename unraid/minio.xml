@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-minio/blob/main/readme-vars.yml -->
+<Container version="2">
+    <Name>minio</Name>
+    <Repository>ghcr.io/imagegenius/minio</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/minio</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/imagegenius/docker-minio/issues/new/choose</Support>
+    <Shell>bash</Shell>
+    <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
+    <GitHub>https://github.com/imagegenius/docker-minio#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-minio#readme</ReadMe>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Latest MinIO release with an Alpine Base.</TagDescription>
+    </Branch>
+    <Project>https://min.io/</Project>
+    <Overview>Minio(https://min.io/) is a High Performance Object Storage released under GNU Affero General Public License v3.0. It is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads.</Overview>
+    <WebUI>http://[IP]:[PORT:9001]</WebUI>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/minio.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/default.png</Icon>
+    <Date>2023-29-01</Date>
+    <Changes>
+### 2023-29-01
+- Initial release.
+
+    </Changes>
+    <Config Name="WebUI" Target="9001" Default="9001" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Port: 9000" Target="9000" Default="9000" Mode="tcp" Description="API Port" Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata/Bucket Path" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="MINIO_ROOT_USER" Target="MINIO_ROOT_USER" Default="minioadmin" Description="Specify the root username for MinIO" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="MINIO_ROOT_PASSWORD" Target="MINIO_ROOT_PASSWORD" Default="minioadmin" Description="Specify the root password for MinIO" Type="Variable" Display="always" Required="true" Mask="true"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
