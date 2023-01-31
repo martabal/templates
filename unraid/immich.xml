@@ -27,7 +27,7 @@
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/immich.png</Icon>
-    <Requires>//PostgreSQL 14\\, //Redis\\</Requires>
+    <Requires>PostgreSQL 14, Redis</Requires>
     <Date>2023-01-26</Date>
     <Changes>
 ### 2023-01-26
