@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-kopia/blob/main/readme-vars.yml -->
+<Container version="2">
+    <Name>kopia</Name>
+    <Repository>ghcr.io/imagegenius/kopia</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/kopia</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/imagegenius/docker-kopia/issues/new/choose</Support>
+    <Shell>bash</Shell>
+    <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
+    <GitHub>https://github.com/imagegenius/docker-kopia#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-kopia#readme</ReadMe>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Latest Kopia release with an Alpine base.</TagDescription>
+    </Branch>
+    <Project>https://kopia.io/</Project>
+    <Overview>Kopia(https://kopia.io/) is a fast and secure open-source backup/restore tool that allows you to create encrypted snapshots of your data and save the snapshots to remote or cloud storage of your choice, to network-attached storage or server, or locally on your machine. Kopia does not &#39;image&#39; your whole machine. Rather, Kopia allows you to backup/restore any and all files/directories that you deem are important or critical.</Overview>
+    <ExtraParams>--hostname=Kopia</ExtraParams>
+    <WebUI>http://[IP]:[PORT:51515]</WebUI>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/kopia.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/kopia.png</Icon>
+    <Date>2023-26-01</Date>
+    <Changes>
+### 2023-26-01
+- Initial release.
+
+    </Changes>
+    <Config Name="WebUI" Target="51515" Default="51515" Mode="tcp" Description="WebUI Port:" Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata Path" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="Path: /source" Target="/source" Default="" Mode="rw" Description="Backup Source Path" Type="Path" Display="always" Required="true" Mask="false"/>
+    <Config Name="Path: /local" Target="/local" Default="" Mode="rw" Description="Path for local filesystem repositories" Type="Path" Display="always" Required="false" Mask="false"/>
+    <Config Name="USERNAME" Target="USERNAME" Default="kopia" Description="Specify a username to access the WebUI" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="PASSWORD" Target="PASSWORD" Default="kopia" Description="Specify a password to access the WebUI" Type="Variable" Display="always" Required="true" Mask="true"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
