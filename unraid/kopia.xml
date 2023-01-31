@@ -34,7 +34,7 @@
     <Config Name="Path: /tmp" Target="/tmp" Default="" Mode="rw" Description="Temporary Uploads Path" Type="Path" Display="always" Required="true" Mask="false"/>
     <Config Name="Path: /local" Target="/local" Default="" Mode="rw" Description="Path for local filesystem repositories" Type="Path" Display="always" Required="false" Mask="false"/>
     <Config Name="USERNAME" Target="USERNAME" Default="kopia" Description="Specify a username to access the WebUI" Type="Variable" Display="always" Required="true" Mask="false"/>
-    <Config Name="PASSWORD" Target="PASSWORD" Default="kopia" Description="Specify a repository password, this is also the password to access the WebUI" Type="Variable" Display="always" Required="true" Mask="true"/>
+    <Config Name="PASSWORD" Target="PASSWORD" Default="kopia" Description="Specify the password that you WILL use when creating a repository, this is also the password to access the WebUI" Type="Variable" Display="always" Required="true" Mask="true"/>
     <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
