@@ -23,7 +23,7 @@
         <GitHub>https://github.com/imagegenius/docker-esphome/tree/ubuntu#application-setup</GitHub>
     </Branch>
     <Project>https://esphome.io/</Project>
-    <Overview>ESPHome(https://esphome.io/) - A system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.</Overview>
+    <Overview>ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.</Overview>
     <WebUI>http://[IP]:[PORT:6052]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/esphome.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/esphome.png</Icon>
