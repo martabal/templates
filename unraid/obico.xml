@@ -13,7 +13,7 @@
     <GitHub>https://github.com/imagegenius/docker-obico#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-obico#readme</ReadMe>
     <Project>https://www.obico.io/</Project>
-    <Overview>Obico(https://www.obico.io/) - Community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world.</Overview>
+    <Overview>Obico is a community-built, open-source smart 3D printing platform used by makers, enthusiasts, and tinkerers around the world.</Overview>
     <WebUI>http://[IP]:[PORT:3334]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/obico.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/obico.png</Icon>
