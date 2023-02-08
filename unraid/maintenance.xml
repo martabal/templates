@@ -13,7 +13,7 @@
     <GitHub>https://github.com/imagegenius/docker-maintenance#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-maintenance#readme</ReadMe>
     <Project>https://imagegenius/docker-maintenance/</Project>
-    <Overview>Maintenance(https://imagegenius/docker-maintenance/) - Minimal Nginx Docker image with a soul purpose to be a maintenance page for when your main webserver is down</Overview>
+    <Overview>Maintenance is a minimal nginx docker image with a soul purpose to be a maintenance page for when your main webserver is down</Overview>
     <WebUI>http://[IP]:[PORT:80]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/maintenance.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/maintenance.png</Icon>
