@@ -23,7 +23,7 @@
         <GitHub>https://github.com/imagegenius/docker-amp/tree/ubuntu#application-setup</GitHub>
     </Branch>
     <Project>https://cubecoders.com/AMP</Project>
-    <Overview>AMP (Application Management Panel)(https://cubecoders.com/AMP) - a simple to use and easy to install control panel and management system for hosting game servers.</Overview>
+    <Overview>AMP (Application Management Panel) is a simple to use and easy to install control panel and management system for hosting game servers. It runs on both Windows and Linux and requires no command line knowledge to get started. Everything is taken care of by its clear and intuitive web interface, making it a breeze to use.</Overview>
     <ExtraParams>--mac-address=00:00:00:00:00:00</ExtraParams>
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/amp.xml</TemplateURL>
