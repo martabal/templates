@@ -13,7 +13,7 @@
     <GitHub>https://github.com/imagegenius/docker-mosquitto#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-mosquitto#readme</ReadMe>
     <Project>https://mosquitto.org/</Project>
-    <Overview>Mosquitto(https://mosquitto.org/) an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.</Overview>
+    <Overview>Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.</Overview>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/mosquitto.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/mosquitto.png</Icon>
     <Date>2023-01-02</Date>
