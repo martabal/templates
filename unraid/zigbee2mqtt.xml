@@ -14,7 +14,6 @@
     <ReadMe>https://github.com/imagegenius/docker-zigbee2mqtt#readme</ReadMe>
     <Project>https://www.zigbee2mqtt.io/</Project>
     <Overview>Zigbee2MQTT allows you to use your Zigbee devices without the vendor&#39;s bridge or gateway.</Overview>
-    <WebUI>http://[IP]:[PORT:9442]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/zigbee2mqtt.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/zigbee2mqtt.png</Icon>
     <Date>2023-01-02</Date>
