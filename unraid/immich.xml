@@ -28,15 +28,9 @@
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/immich.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/immich.png</Icon>
     <Requires>
-        PostgreSQL 14, Redis
-                This container requires an external application to be run separately.
-        You can also use docker-mods to start postgres and redis within the container:
-- Redis: `DOCKER_MODS=imagegenius/mods:universal-redis` - **Set `REDIS_HOSTNAME` to `localhost`.**
-- PostgreSQL: `DOCKER_MODS=imagegenius/mods:universal-postgres` - **Set `DB_HOSTNAME` to `localhost` and set `DB_USERNAME`, `DB_PASSWORD`, and `DB_DATABASE_NAME` to `postgres`.**
-
-If you want to use both, set `DOCKER_MODS` to `imagegenius/mods:universal-redis|imagegenius/mods:universal-postgres`.
-See the https://github.com/imagegenius/docker-immich for more information
-
+                PostgreSQL 14, Redis
+                        This container requires an external application to be run separately.
+        
             </Requires>
     <Date>2023-02-11</Date>
     <Changes>
