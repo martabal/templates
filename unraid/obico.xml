@@ -17,7 +17,9 @@
     <WebUI>http://[IP]:[PORT:3334]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/obico.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/obico.png</Icon>
-    <Requires>Redis</Requires>
+    <Requires>
+Redis
+    </Requires>
     <Date>2023-01-23</Date>
     <Changes>
 ### 2023-01-23
