@@ -13,10 +13,10 @@
     <GitHub>https://github.com/imagegenius/docker-ai-chat-app#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-ai-chat-app#readme</ReadMe>
     <Project>https://github.com/bitswired/ai-chat-app</Project>
-    <Overview>Open Source, Self-Hosted Chat GPT APP</Overview>
+    <Overview>Open Source, Self-Hosted Chat GPT app</Overview>
     <WebUI>http://[IP]:[PORT:3000]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/ai-chat-app.xml</TemplateURL>
-    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/default.png</Icon>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/ai-chat-app.png</Icon>
     <Date>2023-03-05</Date>
     <Changes>
 ### 2023-03-05
@@ -25,7 +25,6 @@
     </Changes>
     <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"/>
     <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Contains the database" Type="Path" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="OPENAI_API_KEY" Target="OPENAI_API_KEY" Default="" Description="OpenAI API Key" Type="Variable" Display="always" Required="true" Mask="true"/>
     <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
