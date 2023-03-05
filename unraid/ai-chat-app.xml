@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
+<!-- GENERATED FROM https://github.com/imagegenius/docker-ai-chat-app/blob/main/readme-vars.yml -->
+<Container version="2">
+    <Name>ai-chat-app</Name>
+    <Repository>ghcr.io/imagegenius/ai-chat-app</Repository>
+    <Registry>https://github.com/orgs/imagegenius/packages/container/package/ai-chat-app</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/imagegenius/docker-ai-chat-app/issues/new/choose</Support>
+    <Shell>bash</Shell>
+    <Category>Other:</Category>
+    <GitHub>https://github.com/imagegenius/docker-ai-chat-app#application-setup</GitHub>
+    <ReadMe>https://github.com/imagegenius/docker-ai-chat-app#readme</ReadMe>
+    <Project>https://github.com/bitswired/ai-chat-app</Project>
+    <Overview>Open Source, Self-Hosted Chat GPT APP</Overview>
+    <WebUI>http://[IP]:[PORT:3000]</WebUI>
+    <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/ai-chat-app.xml</TemplateURL>
+    <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/default.png</Icon>
+    <Date>2023-03-05</Date>
+    <Changes>
+### 2023-03-05
+- Initial Release.
+
+    </Changes>
+    <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"/>
+    <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Contains the database" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="OPENAI_API_KEY" Target="OPENAI_API_KEY" Default="" Description="OpenAI API Key" Type="Variable" Display="always" Required="true" Mask="true"/>
+    <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+    <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
