@@ -17,14 +17,21 @@
     <WebUI>http://[IP]:[PORT:3000]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/ai-chat-app.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/ai-chat-app.png</Icon>
-    <Date>2023-03-05</Date>
+    <Date>2023-03-19</Date>
     <Changes>
+### 2023-03-19
+- Add mutli-user variables.
+
 ### 2023-03-05
 - Initial Release.
 
     </Changes>
     <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false"/>
     <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Contains the database" Type="Path" Display="advanced" Required="true" Mask="false"/>
+    <Config Name="NEXTAUTH_SECRET" Target="NEXTAUTH_SECRET" Default="secret" Description="Used to encrypt the NextAuth.js JWT and to hash email verification tokens, set to something long and random." Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="NEXTAUTH_URL" Target="NEXTAUTH_URL" Default="http://192.168.1.2:3000" Description="Set this to the IP:port used to access the container." Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="ADMIN_EMAIL" Target="ADMIN_EMAIL" Default="example@me.com" Description="Email used to access the WebUI." Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="ADMIN_PASSWORD" Target="ADMIN_PASSWORD" Default="password" Description="Password used to access the WebUI." Type="Variable" Display="always" Required="true" Mask="true"/>
     <Config Name="PUID" Target="PUID" Default="99" Description="UID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="GID for permissions. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
     <Config Name="UMASK" Target="UMASK" Default="022" Description="UMASK for newly created files. Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
