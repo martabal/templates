@@ -12,7 +12,7 @@
     <Category>Other:</Category>
     <GitHub>https://github.com/imagegenius/docker-ai-chat-app#application-setup</GitHub>
     <ReadMe>https://github.com/imagegenius/docker-ai-chat-app#readme</ReadMe>
-    <Project>https://github.com/bitswired/ai-chat-app</Project>
+    <Project>https://github.com/bitswired/fuseai</Project>
     <Overview>Open Source, Self-Hosted Chat GPT app</Overview>
     <WebUI>http://[IP]:[PORT:3000]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/ai-chat-app.xml</TemplateURL>
