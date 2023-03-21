@@ -27,8 +27,11 @@
     <WebUI>http://[IP]:[PORT:6052]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/esphome.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/esphome.png</Icon>
-    <Date>2023-01-20</Date>
+    <Date>2023-03-21</Date>
     <Changes>
+### 2023-03-21
+- Add service checks
+
 ### 2023-01-20
 - Add aarch64 support.
 
