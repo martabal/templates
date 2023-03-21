@@ -21,9 +21,12 @@
     <WebUI>http://[IP]:[PORT:9001]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/minio.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/imagegenius/templates/main/unraid/img/minio.png</Icon>
-    <Date>2023-29-01</Date>
+    <Date>2023-03-21</Date>
     <Changes>
-### 2023-29-01
+### 2023-03-21
+- Add service checks
+
+### 2023-01-29
 - Initial release.
 
     </Changes>
