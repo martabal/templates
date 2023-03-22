@@ -18,7 +18,7 @@
     </Branch>
     <Branch>
         <Tag>noml</Tag>
-        <TagDescription>Latest Immich release with an Alpine base. Machine-learning is completly removed. (tinnny image), use this if your CPU does not support AVX</TagDescription>
+        <TagDescription>Latest Immich release with an Alpine base. Machine-learning is completly removed (tinnny image).</TagDescription>
         <ReadMe>https://github.com/imagegenius/docker-immich/tree/noml#readme</ReadMe>
         <GitHub>https://github.com/imagegenius/docker-immich/tree/noml#application-setup</GitHub>
     </Branch>
